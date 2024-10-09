@@ -1,0 +1,149 @@
+body{
+    text-decoration: none;
+    background-color: #2e1437;
+    color: #ff66b2;
+    margin: 0;
+    padding: 0;
+    font-family: "Great Vibes", cursive;
+}
+header{
+    background-color: #6a1b9a;
+    padding: 20px;
+    display: flex;
+    justify-content: none;
+    align-items: center;
+    text-decoration: none;
+
+}
+h1 span{
+    color: #ffccff;
+    font-family: "Great Vibes", cursive;
+    text-decoration: none;
+}
+section h1,h2{
+    color: #ffccff;
+    font-family: "Rock Salt", cursive;
+    text-decoration: none;
+}
+.navbar{
+    list-style-type: none;  
+    justify-content: center;
+    display: flex;
+    text-align: center;
+}
+.navbar li{
+    margin: 0 15px;
+}
+.navbar a{
+    text-decoration: none;
+    color: #ffccff;
+    font-weight: bold;
+    font-size: 20px;
+    transition: color 0.3s;
+}
+.navbar a:hover{
+    color: #ff66b2;
+    background-color: #2e1437;
+    box-shadow: 0 8px 20px #ff69b4cc;
+}
+section {
+    text-align: center;
+    padding: 20px;
+    margin: 20px 0;
+    text-decoration: none;
+  }
+/* Pet Box Styling */
+.pets {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+  }
+  
+  .pet {
+    background-color: #6a1b9a;
+    color: #ff66b2;
+    border: 2px solid #ff66b2;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    width: 30%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s, box-shadow 0.3s, border 0.3s;
+  }
+  
+  .pet h3 {
+    color: #ffccff; /* Light pink text color */
+  }
+  .pet:hover {
+    transform: scale(1.1); /* Bigger scale on hover for excitement */
+    box-shadow: 0 8px 20px rgba(255, 105, 180, 0.8); /* Bright pink glow */
+    border: 2px solid #ff33cc; /* Brighter border on hover */
+  }
+  /* Image Styling */
+.pet img {
+    width: 70%;
+    border-radius: 20px;
+    transition: filter 0.3s, transform 0.3s;
+  }
+  
+  .pet:hover img {
+    filter: brightness(1.3);
+    transform: rotate(5deg); /* Fun tilt effect on hover */
+  }
+  /* Contact Form Styling */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ff66b2;
+    border-radius: 5px;
+    background-color: #4e1561;
+    color: #ffccff;
+  }
+  xyh-mfkc-pre
+  /* Contact Form Styling */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ff66b2;
+    border-radius: 5px;
+    background-color: #4e1561;
+    color: #ffccff;
+  }
+  input[type="submit"] {
+    padding: 10px 20px;
+    margin: 10px 0;
+    border: 1px solid #ff66b2;
+    border-radius: 5px;
+    background-color: #ff66b2;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #ff99cc;
+  }
+  
+  footer {
+    background-color: #6a1b9a;
+    text-align: center;
+    padding: 10px;
+    color: #ff99cc;
+  }
